@@ -34,10 +34,10 @@ In my particular case, here is how I defined the event sequence within the ecomm
 2. A user clicks a particular product to read more information about it.                   ➡️ **Event:** [_select_item_](https://gist.github.com/0c83381d1ffad4bb2834a4ad6706e567.git)
 3. A user sees an individual product page.                                                 ➡️ **Event:** [_view_item_](https://gist.github.com/303dce1fc718b95154eeed40aece62d5.git)
 4. A user add the product to cart.                                                         ➡️ **Event:** [_add_to_cart_](https://gist.github.com/juanferEspinosa/1df6975389bac25faf22c7957d6ecb47)
-5. A user can also remove a product from the cart.                                         ➡️ **Event:** remove_from_cart_
-6. A user views the cart page.                                                             ➡️ **Event:** _view_cart_
-7. A user initializes the checkout.                                                        ➡️ **Event:** _begin_checkout_
-8. A user adds billing and/or shipping information.                                        ➡️ **Event:** _add_shipping_info, _add_payment_info_
+5. A user can also remove a product from the cart.                                         ➡️ **Event:** [_remove_from_cart_](https://gist.github.com/juanferEspinosa/c4eeea6ec935105f9821f11ef3123d1f)
+6. A user views the cart page.                                                             ➡️ **Event:** [_view_cart_](https://gist.github.com/juanferEspinosa/1643614ba7f9b6d7116371dd80a41810)
+7. A user initializes the checkout.                                                        ➡️ **Event:** [_begin_checkout_](https://gist.github.com/juanferEspinosa/f3e631afacce28a94c967fc4d246413f)
+8. A user adds billing and/or shipping information.                                        ➡️ **Event:** [_add_shipping_info_](https://gist.github.com/juanferEspinosa/9746b90b4df8e87a1736aa28050e0bd1), [_add_payment_info_](https://gist.github.com/juanferEspinosa/f10da32ffb1fc0d1bd5562f804b4b328)
 9. A user completes the purchase                                                          ➡️ **Event:** _purchase_
 
 > [!NOTE]
