@@ -42,6 +42,8 @@ In my particular case, here is how I defined the event sequence within the ecomm
 
 > [!NOTE]
 > The order of the events, _Shipping information_ and _billing information_ does not matter as Google will understand them.
+>
+> For a deeper understanding of the events and the parameters that could be added to an individual event throughout the purchase funnel, please refer to [Simo Ahava's post](https://www.simoahava.com/analytics/google-analytics-4-ecommerce-guide-google-tag-manager/). 
 
 
    
