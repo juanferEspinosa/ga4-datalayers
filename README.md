@@ -18,7 +18,7 @@ However, the **"Why"** is the target we aim to answer. Therefore, it is fundamen
 
 The repository will list a simple e-commerce datalayer setup I implemented in my [blog](juanferespinosa.com/blog/ecommerce/products), where you could find a step-by-step guide.
 
-According to [Google documentation](https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtag) there are several default event names for tracking information in e-commerce.  
+As a summary, according to [Google documentation](https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtag) there are several default event names for tracking information in e-commerce.  
 
 > [!TIP]
 > It is a good practice to use Google´s default event names as it will automatically populate standard reports.
@@ -28,7 +28,7 @@ According to [Google documentation](https://developers.google.com/analytics/devg
 The next step is to be clear the purpose of each event, define the information you want to collect, modify the following datalayers with your custom examples, ask your developer to implement, and finally test them with Google Tag Manager.
 
 
-In my particular case, here is how I defined the event sequence within the ecommerce section.
+In my example, here is how I defined the event sequence of the ecommerce section.
 
 1. A user views in the product list of a category and view them.                        ➡️ **Event:**  [_view_item_list_](https://gist.github.com/juanferEspinosa/2a402392488fe40801c83d6fe627df9a)
 2. A user clicks a particular product to read more information about it.                   ➡️ **Event:** [_select_item_](https://gist.github.com/0c83381d1ffad4bb2834a4ad6706e567.git)
@@ -43,7 +43,7 @@ In my particular case, here is how I defined the event sequence within the ecomm
 > [!NOTE]
 > The order of the events, _Shipping information_ and _billing information_ does not matter as Google will understand them.
 >
-> For a deeper understanding of the events and the parameters that could be added to an individual event throughout the purchase funnel, please refer to [Simo Ahava's post](https://www.simoahava.com/analytics/google-analytics-4-ecommerce-guide-google-tag-manager/). 
+> For a deeper understanding of events and the parameters that can be added to an individual event throughout the purchase funnel, refer to [Simo Ahava's post](https://www.simoahava.com/analytics/google-analytics-4-ecommerce-guide-google-tag-manager/). 
 
 
    
