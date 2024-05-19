@@ -38,7 +38,7 @@ In my particular case, here is how I defined the event sequence within the ecomm
 6. A user views the cart page.                                                             ➡️ **Event:** [_view_cart_](https://gist.github.com/juanferEspinosa/1643614ba7f9b6d7116371dd80a41810)
 7. A user initializes the checkout.                                                        ➡️ **Event:** [_begin_checkout_](https://gist.github.com/juanferEspinosa/f3e631afacce28a94c967fc4d246413f)
 8. A user adds billing and/or shipping information.                                        ➡️ **Event:** [_add_shipping_info_](https://gist.github.com/juanferEspinosa/9746b90b4df8e87a1736aa28050e0bd1), [_add_payment_info_](https://gist.github.com/juanferEspinosa/f10da32ffb1fc0d1bd5562f804b4b328)
-9. A user completes the purchase                                                          ➡️ **Event:** _purchase_
+9. A user completes the purchase                                                          ➡️ **Event:** [_purchase_](https://gist.github.com/juanferEspinosa/7cb20d976fb9706958fa39b6ea6915fb)
 
 > [!NOTE]
 > The order of the events, _Shipping information_ and _billing information_ does not matter as Google will understand them.
