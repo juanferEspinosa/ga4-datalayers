@@ -31,9 +31,9 @@ The next step is to be clear the purpose of each event, define the information y
 In my particular case, here is how I defined the event sequence within the ecommerce section.
 
 1. A user views in the product list of a category and view them.                        ➡️ **Event:**  [_view_item_list_](https://gist.github.com/juanferEspinosa/2a402392488fe40801c83d6fe627df9a)
-2. A user clicks a particular product to read more information about it.                   ➡️ **Event:** _select_item_
-3. A user sees an individual product page.                                                 ➡️ **Event:** _view_item_
-4. A user add the product to cart.                                                         ➡️ **Event:** _add_to_cart_
+2. A user clicks a particular product to read more information about it.                   ➡️ **Event:** [_select_item_](https://gist.github.com/0c83381d1ffad4bb2834a4ad6706e567.git)
+3. A user sees an individual product page.                                                 ➡️ **Event:** [_view_item_](https://gist.github.com/303dce1fc718b95154eeed40aece62d5.git)
+4. A user add the product to cart.                                                         ➡️ **Event:** [_add_to_cart_](https://gist.github.com/juanferEspinosa/1df6975389bac25faf22c7957d6ecb47)
 5. A user can also remove a product from the cart.                                         ➡️ **Event:** remove_from_cart_
 6. A user views the cart page.                                                             ➡️ **Event:** _view_cart_
 7. A user initializes the checkout.                                                        ➡️ **Event:** _begin_checkout_
