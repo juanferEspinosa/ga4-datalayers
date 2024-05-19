@@ -16,7 +16,7 @@ However, the **"Why"** is the target we aim to answer. Therefore, it is fundamen
 
 ## What could you find here
 
-The repository will list a simple e-commerce datalayer setup I implemented in my [blog](juanferespinosa.com/blog/ecommerce/products), where you could find the details.
+The repository will list a simple e-commerce datalayer setup I implemented in my [blog](juanferespinosa.com/blog/ecommerce/products), where you could find a step-by-step guide.
 
 According to [Google documentation](https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtag) there are several default event names for tracking information in e-commerce.  
 
